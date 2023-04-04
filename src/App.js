@@ -1,7 +1,13 @@
-import "./App.css";
+import React from "react";
+
+import { Sidebar } from "./components/Sidebar";
 
 function App() {
-  return;
+  return (
+    <div className="page-content">
+      <Sidebar />
+    </div>
+  );
 }
 
 export default App;
