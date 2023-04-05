@@ -14,13 +14,13 @@ export const MainContent = () => {
           </div>
 
           <div className="image-wrapper">
-            <image src={image} />
+            <img src={image} />
           </div>
         </div>
 
         <div className="second-div">
           <div className="image-wrapper">
-            <image src={image} />
+            <img src={image} />
           </div>
 
           <div className="content-wrapper">

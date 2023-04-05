@@ -1,4 +1,4 @@
-import image from "../diagram.png";
+import image from "../images/diagram.png";
 
 export const Header = () => {
   return (
