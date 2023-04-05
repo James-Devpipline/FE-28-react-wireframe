@@ -1,10 +1,12 @@
+import logo from "../images/logo.png";
+
 export const Sidebar = () => {
   return (
     <div className="sidebar">
-      <div className="Top-Logo">
-        <img src=".../images/logo.png"></img>
+      <div className="top-logo">
+        <img src={logo} alt="" />
       </div>
-      <div className="Five-Buttons">
+      <div className="five-buttons">
         <button>Button</button>
         <button>Button</button>
         <button>Button</button>
@@ -12,8 +14,8 @@ export const Sidebar = () => {
         <button>Button</button>
         <button>Button</button>
       </div>
-      <div className="Bottom-Logo">
-        <img source=".../images/logo.png"></img>
+      <div className="bottom-logo">
+        <img src={logo} alt="" />
       </div>
     </div>
   );
