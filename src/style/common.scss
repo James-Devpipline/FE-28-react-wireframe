@@ -1,0 +1,7 @@
+.App {
+  margin: 0;
+  .page-content {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+  }
+}
